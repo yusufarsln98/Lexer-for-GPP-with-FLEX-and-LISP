@@ -1,0 +1,4 @@
+(def evaluate-line (line)
+  (reset-variables) 
+  (let ;; Define some variables in local scope
+    ((length (length line))))) 

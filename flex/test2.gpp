@@ -1,0 +1,7 @@
+(defun gppinterpreter (&optional filename)
+  ;; if not filename, print prompt to user
+  (if (equal filename nil)
+      (progn
+        (format t "(Enter 'quit' to exit.)~%")
+        (loop
+          (format t "$ ")))))
